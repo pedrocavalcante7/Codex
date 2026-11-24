@@ -1,15 +1,18 @@
 name: Build and distribute Codex
 on:
+  push:
+    branches: [main]
+    paths: ['release-request.json']
   workflow_dispatch:
     inputs:
       version:
         description: Product version (matches sources)
         required: true
-        default: '5.95'
+        default: '5.97'
       code:
         description: Monotonically increasing update code
         required: true
-        default: '213'
+        default: '215'
 permissions:
   contents: write
   pages: write
@@ -22,6 +25,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      - name: Resolve release request
+        id: release
+        env:
+          MANUAL_VERSION: ${{ inputs.version }}
+          MANUAL_CODE: ${{ inputs.code }}
+        run: |
+          python3 - <<'PY'
+          import os, json, re
+          if os.environ.get('GITHUB_EVENT_NAME') == 'push':
+              request = json.load(open('release-request.json'))
+              version, code = str(request['version']), str(request['code'])
+          else:
+              version, code = os.environ['MANUAL_VERSION'], os.environ['MANUAL_CODE']
+          assert re.fullmatch(r'[0-9]+\.[0-9]+(?:\.[0-9]+)?', version)
+          assert re.fullmatch(r'[0-9]+', code) and int(code) >= 213
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f'version={version}\ncode={code}\n')
+          PY
       - uses: actions/setup-java@v5
         with:
           distribution: temurin
@@ -45,8 +66,8 @@ jobs:
         env:
           BACKUP: ${{ secrets.CODEX_SIGNING_BACKUP_JSON }}
           MANIFEST: ${{ vars.CODEX_UPDATE_MANIFEST_URL }}
-          VERSION: ${{ inputs.version }}
-          CODE: ${{ inputs.code }}
+          VERSION: ${{ steps.release.outputs.version }}
+          CODE: ${{ steps.release.outputs.code }}
         run: |
           set -euo pipefail
           test -n "$BACKUP"; test -n "$MANIFEST"
@@ -63,8 +84,8 @@ jobs:
       - name: Publish release before manifest
         env:
           GH_TOKEN: ${{ github.token }}
-          CODE: ${{ inputs.code }}
-          VERSION: ${{ inputs.version }}
+          CODE: ${{ steps.release.outputs.code }}
+          VERSION: ${{ steps.release.outputs.version }}
         run: gh release create "codex-$CODE" release/* --title "Codex $VERSION" --notes "Codex $VERSION" --target "$GITHUB_SHA"
       - name: Stage website and manifest
         run: cp release/update-manifest.json web-source/dist/update-manifest.json
