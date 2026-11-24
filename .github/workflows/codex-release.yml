@@ -1,0 +1,73 @@
+name: Build and distribute Codex
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Product version (matches sources)
+        required: true
+        default: '5.95'
+      code:
+        description: Monotonically increasing update code
+        required: true
+        default: '213'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: codex-release
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check source availability
+        run: test -f tools/build-native595.py && test -f tools/package-update595.py && test -f web-source/dist/index.html
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Install Android SDK components
+        run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+      - name: Build signed APK and signed asset bundle
+        env:
+          BACKUP: ${{ secrets.CODEX_SIGNING_BACKUP_JSON }}
+          MANIFEST: ${{ vars.CODEX_UPDATE_MANIFEST_URL }}
+          VERSION: ${{ inputs.version }}
+          CODE: ${{ inputs.code }}
+        run: |
+          set -euo pipefail
+          test -n "$BACKUP"; test -n "$MANIFEST"
+          [[ "$VERSION" =~ ^[0-9]+\.[0-9]+(\.[0-9]+)?$ ]]; [[ "$CODE" =~ ^[0-9]+$ ]]
+          umask 077
+          KEY=$(mktemp); trap 'rm -f "$KEY"' EXIT
+          printf '%s' "$BACKUP" > "$KEY"
+          mkdir -p release
+          if [[ "$CODE" == 213 && "$VERSION" == 5.95 ]]; then
+            python3 tools/build-native595.py --sdk "$ANDROID_HOME" --signing-backup "$KEY" --manifest-url "$MANIFEST" --output release
+          fi
+          URL="https://github.com/${GITHUB_REPOSITORY}/releases/download/codex-${CODE}/codex-assets-${CODE}.zip"
+          python3 tools/package-update595.py --signing-backup "$KEY" --output release --url "$URL" --version "$VERSION" --code "$CODE"
+      - name: Publish release before manifest
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CODE: ${{ inputs.code }}
+          VERSION: ${{ inputs.version }}
+        run: gh release create "codex-$CODE" release/* --title "Codex $VERSION" --notes "Codex $VERSION" --target "$GITHUB_SHA"
+      - name: Stage website and manifest
+        run: cp release/update-manifest.json web-source/dist/update-manifest.json
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web-source/dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
