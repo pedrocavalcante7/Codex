@@ -89,8 +89,9 @@ jobs:
           KEY=$(mktemp); trap 'rm -f "$KEY"' EXIT
           printf '%s' "$BACKUP" > "$KEY"
           mkdir -p release
-          if [[ "$CODE" == 218 && "$VERSION" == 5.99 ]]; then
+          if [[ "$CODE" == 219 && "$VERSION" == 6.00 ]]; then
             python3 tools/build-native595.py --sdk "$ANDROID_HOME" --signing-backup "$KEY" --manifest-url "$MANIFEST" --output release
+            for apk in release/*.apk; do if [[ "$apk" != release/Codex-6.00.apk ]]; then mv "$apk" release/Codex-6.00.apk; fi; done
           fi
           URL="https://github.com/${GITHUB_REPOSITORY}/releases/download/codex-${CODE}/codex-assets-${CODE}.zip"
           python3 tools/package-update595.py --signing-backup "$KEY" --output release --url "$URL" --version "$VERSION" --code "$CODE"
