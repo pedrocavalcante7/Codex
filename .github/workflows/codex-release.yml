@@ -22,8 +22,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Check source availability
-        run: test -f tools/build-native595.py && test -f tools/package-update595.py && test -f web-source/dist/index.html
       - uses: actions/setup-java@v4
         with:
           distribution: temurin

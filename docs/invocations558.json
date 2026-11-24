@@ -1,0 +1,254 @@
+[
+  {
+    "id": "Agonizing Blast",
+    "name": "Agonizing Blast",
+    "pt": "Rajada Agonizante",
+    "level": 2,
+    "requires": "",
+    "target": "damage",
+    "text": "Prerequisite: Level 2+ Warlock, a Warlock Cantrip That\nDeals Damage\nChoose one of your known Warlock cantrips that\ndeals damage. You can add your Charisma modifier\nto that spell’s damage rolls.\nRepeatable. You can gain this invocation more\nthan once. Each time you do so, choose a different\neligible cantrip."
+  },
+  {
+    "id": "Armor of Shadows",
+    "name": "Armor of Shadows",
+    "pt": "Armadura de Sombras",
+    "level": 1,
+    "requires": "",
+    "target": "",
+    "text": "You can cast Mage Armor on yourself without ex­\npending a spell slot."
+  },
+  {
+    "id": "Ascendant Step",
+    "name": "Ascendant Step",
+    "pt": "Passo Ascendente",
+    "level": 5,
+    "requires": "",
+    "target": "",
+    "text": "Prerequisite: Level 5+ Warlock\nYou can cast Levitate on yourself without expending\na spell slot."
+  },
+  {
+    "id": "Devil’s Sight",
+    "name": "Devil’s Sight",
+    "pt": "Visão Diabólica",
+    "level": 2,
+    "requires": "",
+    "target": "",
+    "text": "Prerequisite: Level 2+ Warlock\nYou can see normally in Dim Light and Darkness—\nboth magical and nonmagical—within 120 feet of\nyourself."
+  },
+  {
+    "id": "Devouring Blade",
+    "name": "Devouring Blade",
+    "pt": "Lâmina Devoradora",
+    "level": 12,
+    "requires": "Thirsting Blade",
+    "target": "",
+    "text": "Prerequisite: Level 12+ Warlock, Thirsting Blade\nInvocation\nThe Extra Attack of your Thirsting Blade invoca­\ntion confers two extra attacks rather than one."
+  },
+  {
+    "id": "Eldritch Mind",
+    "name": "Eldritch Mind",
+    "pt": "Mente Mística",
+    "level": 1,
+    "requires": "",
+    "target": "",
+    "text": "You have Advantage on Constitution saving throws\nthat you make to maintain Concentration."
+  },
+  {
+    "id": "Eldritch Smite",
+    "name": "Eldritch Smite",
+    "pt": "Destruição Mística",
+    "level": 5,
+    "requires": "Pact of the Blade",
+    "target": "",
+    "text": "Prerequisite: Level 5+ Warlock, Pact of the Blade\nInvocation\nOnce per turn when you hit a creature with your\npact weapon, you can expend a Pact Magic spell slot\nto deal an extra ld8 Force damage to the target, plus\nanother ld8 per level of the spell slot, and you can\ngive the target the Prone condition if it is Huge or\nsmaller."
+  },
+  {
+    "id": "Eldritch Spear",
+    "name": "Eldritch Spear",
+    "pt": "Lança Mística",
+    "level": 2,
+    "requires": "",
+    "target": "range",
+    "text": "Prerequisite: Level 2+ Warlock, a Warlock Cantrip That\nDeals Damage\nChoose one of your known Warlock cantrips that\ndeals damage and has a range of 10+ feet. When you\ncast that spell, its range increases by a number of\nfeet equal to 30 times your Warlock level.\nRepeatable. You can gain this invocation more\nthan once. Each time you do so, choose a different\neligible cantrip."
+  },
+  {
+    "id": "Fiendish Vigor",
+    "name": "Fiendish Vigor",
+    "pt": "Vigor Demoníaco",
+    "level": 2,
+    "requires": "",
+    "target": "",
+    "text": "Prerequisite: Level 2+ Warlock\nYou can cast False Life on yourself without expend­\ning a spell slot. When you cast the spell with this\nfeature, you don’t roll the die for the Temporary Hit\nPoints; you automatically get the highest number on\nthe die."
+  },
+  {
+    "id": "Gaze of Two Minds",
+    "name": "Gaze of Two Minds",
+    "pt": "Olhar de Duas Mentes",
+    "level": 5,
+    "requires": "",
+    "target": "",
+    "text": "Prerequisite: Level 5+ Warlock\nYou can use a Bonus Action to touch a willing\ncreature and perceive through its senses until the\nend of your next turn. As long as the creature is on\nthe same plane of existence as you, you can take a\nBonus Action on subsequent turns to maintain this\nconnection, extending the duration until the end of\nyour next turn. The connection ends if you don’t\nmaintain it in this way.\nWhile perceiving through the other creature’s\nsenses, you benefit from any special senses pos­\nsessed by that creature, and you can cast spells as if\nyou were in your space or the other creature’s space\nif the two ofyou are within 60 feet of each other."
+  },
+  {
+    "id": "Gift of the Depths",
+    "name": "Gift of the Depths",
+    "pt": "Dádiva das Profundezas",
+    "level": 5,
+    "requires": "",
+    "target": "",
+    "text": "Prerequisite: Level 5+ Warlock\nYou can breathe underwater, and you gain a Swim\nSpeed equal to your Speed.\nYou can also cast Water Breathing once without\nexpending a spell slot. You regain the ability to cast\nit in this way again when you finish a Long Rest."
+  },
+  {
+    "id": "Gift of the Protectors",
+    "name": "Gift of the Protectors",
+    "pt": "Dádiva dos Protetores",
+    "level": 9,
+    "requires": "Pact of the Tome",
+    "target": "",
+    "text": "Prerequisite: Level 9+ Warlock, Pact ofthe Tome\nInvocation\nA new page appears in your Book ofShadows when\nyou conjure it. With your permission, a creature\ncan take an action to write its name on that page,\nwhich can contain a number of names equal to your\nCharisma modifier (minimum of one name).\nWhen any creature whose name is on the page\nis reduced to 0 Hit Points but not killed outright,\nthe creature magically drops to 1 Hit Point instead.\nOnce this magic is triggered, no creature can bene­\nfit from it until you finish a Long Rest.\nAs a Magic action, you can erase a name on the\npage by touching it."
+  },
+  {
+    "id": "Investment of the Chain Master",
+    "name": "Investment of the Chain Master",
+    "pt": "Investimento do Mestre da Corrente",
+    "level": 5,
+    "requires": "Pact of the Chain",
+    "target": "",
+    "text": "Prerequisite: Level 5+ Warlock, Pact ofthe Chain\nInvocation\nWhen you cast Find Familiar, you infuse the sum­\nmoned familiar with a measure of your eldritch\npower, granting the creature the following benefits.\nAerial or Aquatic. The familiar gains either a Fly\nSpeed or a Swim Speed (your choice) of 40 feet.\nQuick Attack. As a Bonus Action, you can com­\nmand the familiar to take the Attack action.\nNecrotic or Radiant Damage. Whenever the famil­\niar deals Bludgeoning, Piercing, or Slashing damage,\nyou can make it deal Necrotic or Radiant damage\ninstead.\nYour Save DC. If the familiar forces a creature to\nmake a saving throw, it uses your spell save DC.\nResistance. When the familiar takes damage, you\ncan take a Reaction to grant it Resistance against\nthat damage."
+  },
+  {
+    "id": "Lessons of the First Ones",
+    "name": "Lessons of the First Ones",
+    "pt": "Lições dos Primeiros",
+    "level": 2,
+    "requires": "",
+    "target": "origin",
+    "text": "Prerequisite: Level 2+ Warlock\nYou have received knowledge from an elder entity\nof the multiverse, allowing you to gain one Origin\nfeat of your choice (see chapter 5).\nRepeatable. You can gain this invocation more\nthan once. Each time you do so, choose a different\nOrigin feat."
+  },
+  {
+    "id": "Lifedrinker",
+    "name": "Lifedrinker",
+    "pt": "Sorvedor de Vida",
+    "level": 9,
+    "requires": "Pact of the Blade",
+    "target": "",
+    "text": "Prerequisite: Level 9+ Warlock, Pact of the Blade\nInvocation\nOnce per turn when you hit a creature with your\npact weapon, you can deal an extra ld6 Necrotic,\nPsychic, or Radiant damage (your choice) to the\ncreature, and you can expend one of your Hit Point\nDice to roll it and regain a number of Hit Points\nequal to the roll plus your Constitution modifier\n(minimum of 1 Hit Point)."
+  },
+  {
+    "id": "Mask of Many Faces",
+    "name": "Mask of Many Faces",
+    "pt": "Máscara de Muitas Faces",
+    "level": 2,
+    "requires": "",
+    "target": "",
+    "text": "Prerequisite: Level 2+ Warlock\nYou can cast Disguise Self without expending a spell\nslot."
+  },
+  {
+    "id": "Master of Myriad Forms",
+    "name": "Master of Myriad Forms",
+    "pt": "Mestre das Inúmeras Formas",
+    "level": 5,
+    "requires": "",
+    "target": "",
+    "text": "Prerequisite: Level 5+ Warlock\nYou can cast Alter Selfwithout expending a spell\nslot."
+  },
+  {
+    "id": "Misty Visions",
+    "name": "Misty Visions",
+    "pt": "Visões Nebulosas",
+    "level": 2,
+    "requires": "",
+    "target": "",
+    "text": "Prerequisite: Level 2+ Warlock\nYou can cast Silent Image without expending a spell\nslot."
+  },
+  {
+    "id": "One with Shadows",
+    "name": "One with Shadows",
+    "pt": "Uno com as Sombras",
+    "level": 5,
+    "requires": "",
+    "target": "",
+    "text": "Prerequisite: Level 5+ Warlock\nWhile you’re in an area of Dim Light or Darkness,\nyou can cast Invisibility on yourself without expend­\ning a spell slot."
+  },
+  {
+    "id": "Otherworldly Leap",
+    "name": "Otherworldly Leap",
+    "pt": "Salto Sobrenatural",
+    "level": 2,
+    "requires": "",
+    "target": "",
+    "text": "Prerequisite: Level 2+ Warlock\nYou can cast Jump on yourself without expending a\nspell slot."
+  },
+  {
+    "id": "Pact of the Blade",
+    "name": "Pact of the Blade",
+    "pt": "Pacto da Lâmina",
+    "level": 1,
+    "requires": "",
+    "target": "",
+    "text": "As a Bonus Action, you can conjure a pact weapon\nin your hand—a Simple or Martial Melee weapon of\nyour choice with which you bond—or create a bond\nwith a magic weapon you touch; you can’t bond\nwith a magic weapon if someone else is attuned to\nit or another Warlock is bonded with it. Until the\nbond ends, you have proficiency with the weapon,\nand you can use it as a Spellcasting Focus.\nWhenever you attack with the bonded weapon,\nyou can use your Charisma modifier for the at­\ntack and damage rolls instead of using Strength or\nDexterity; and you can cause the weapon to deal\nNecrotic, Psychic, or Radiant damage or its normal\ndamage type.\nYour bond with the weapon ends ifyou use this\nfeature’s Bonus Action again, if the weapon is more\nthan 5 feet away from you for 1 minute or more, or\nif you die. A conjured weapon disappears when the\nbond ends."
+  },
+  {
+    "id": "Pact of the Chain",
+    "name": "Pact of the Chain",
+    "pt": "Pacto da Corrente",
+    "level": 1,
+    "requires": "",
+    "target": "",
+    "text": "You learn the Find Familiar spell and can cast it as a\nMagic action without expending a spell slot.\nWhen you cast the spell, you choose one of the\nnormal forms for your familiar or one of the fol­\nlowing special forms: Imp, Pseudodragon, Qua-\nsit, Skeleton, Slaad Tadpole, Sphinx of Wonder,\nSprite, or Venomous Snake (see appendix B for the\nfamiliar’s stat block).\nAdditionally, when you take the Attack action,\nyou can forgo one of your own attacks to allow\nyour familiar to make one attack of its own with its\nReaction."
+  },
+  {
+    "id": "Pact of the Tome",
+    "name": "Pact of the Tome",
+    "pt": "Pacto do Tomo",
+    "level": 1,
+    "requires": "",
+    "target": "",
+    "text": "Stitching together strands of shadow, you conjure\nforth a book in your hand at the end of a Short or\nLong Rest. This Book ofShadows (you determine its\nappearance) contains eldritch magic that only you\ncan access, granting you the benefits below. The\nbook disappears if you conjure another book with\nthis feature or if you die.\nCantrips and Rituals. When the book appears,\nchoose three cantrips, and choose two level 1 spells\nthat have the Ritual tag. The spells can be from any\nclass’s spell list, and they must be spells you don’t\nalready have prepared. While the book is on your\nperson, you have the chosen spells prepared, and\nthey function as Warlock spells for you.\nSpellcasting Focus. You can use the book as a\nSpellcasting Focus."
+  },
+  {
+    "id": "Repelling Blast",
+    "name": "Repelling Blast",
+    "pt": "Rajada Repulsiva",
+    "level": 2,
+    "requires": "",
+    "target": "attack",
+    "text": "Prerequisite: Level 2+ Warlock, a Warlock Cantrip That\nDeals Damage via an Attack Roll\nChoose one of your known Warlock cantrips that\nrequires an attack roll. When you hit a Large or\nsmaller creature with that cantrip, you can push the\ncreature up to 10 feet straight away from you.\nRepeatable. You can gain this invocation more\nthan once. Each time you do so, choose a different\neligible cantrip."
+  },
+  {
+    "id": "Thirsting Blade",
+    "name": "Thirsting Blade",
+    "pt": "Lâmina Sedenta",
+    "level": 5,
+    "requires": "Pact of the Blade",
+    "target": "",
+    "text": "Prerequisite: Level 5+ Warlock, Pact of the Blade\nInvocation\nYou gain the Extra Attack feature for your pact\nweapon only. With that feature, you can attack\ntwice with the weapon instead of once when you\ntake the Attack action on your turn."
+  },
+  {
+    "id": "Visions of Distant Realms",
+    "name": "Visions of Distant Realms",
+    "pt": "Visões de Reinos Distantes",
+    "level": 9,
+    "requires": "",
+    "target": "",
+    "text": "Prerequisite: Level 9+ Warlock\nYou can cast Arcane Eye without expending a spell\nslot."
+  },
+  {
+    "id": "Whispers of the Grave",
+    "name": "Whispers of the Grave",
+    "pt": "Sussurros do Túmulo",
+    "level": 7,
+    "requires": "",
+    "target": "",
+    "text": "Prerequisite: Level 7+ Warlock\nYou can cast Speak with Dead without expending a\nspell slot."
+  },
+  {
+    "id": "Witch Sight",
+    "name": "Witch Sight",
+    "pt": "Visão de Bruxa",
+    "level": 15,
+    "requires": "",
+    "target": "",
+    "text": "Prerequisite: Level 15+ Warlock\nYou have Truesight with a range of 30 feet."
+  }
+]

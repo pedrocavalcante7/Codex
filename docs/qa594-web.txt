@@ -1,0 +1,1 @@
+PASS594: 100 offline assets, every option distinct, no missing layers/NaN, preview preserves character

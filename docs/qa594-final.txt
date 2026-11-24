@@ -1,0 +1,10 @@
+native qa573 0
+PASS 5.73: equipment opt-in, ordered tabs, character menu, atomic background swap, point-buy no rebuilds, skill batch, inferred avatar, all new layers/colors/ages/expressions and themed wheel
+native qa582 0
+PASS 5.82: branding, themed ASI/species/class selectors, organized settings, eligible invocations and dependency cleanup, inventory header/sorting/persistence, feature edit settings, adaptive avatar shadow, asynchronous startup
+web qa582-web 0
+PASS 5.82: branding, themed ASI/species/class selectors, organized settings, eligible invocations and dependency cleanup, inventory header/sorting/persistence, feature edit settings, adaptive avatar shadow, asynchronous startup
+native qa594 0
+PASS594: 100 offline assets, every option distinct, no missing layers/NaN, preview preserves character
+web qa594 0
+PASS594: 100 offline assets, every option distinct, no missing layers/NaN, preview preserves character

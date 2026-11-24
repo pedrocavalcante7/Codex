@@ -1,0 +1,13 @@
+qa579 0 PASS 5.79: tabs/vertical switching, single column/equal gaps, settings persistence, smooth end loop, no loop when disabled/mid-page/dialog, wheel trigger, no duplicate sections
+
+qa581-startup 0 {"microtasks":0,"limited":false,"title":"Codex","logo":"Codex","errors":[]}
+
+qa579-web 0 PASS web navigation: always grid/no tabs, legacy tabs preference accepted without hiding panels, single integrated summary, no duplicate sections
+
+qa588 0 PASS 5.88 web: full skill collapse/expand, bold labels, identical add icons, inventory filter/query/equipped/reset without data mutation, integrated attributes/HP panel, separate title, stable identities, rerender/switch/reload preserve characters
+
+PASS persistence: completed fixed test sheet; exact edited data survives reload/update; backup recovery before boot; other sheets preserved; no reset or duplicates; intentional deletion respected; settings shortcut
+
+PASS qa588 Android: compact integration, Defense contrast, CA fitting2/3digits, restored shop, live HP controls, character switch/reload.
+PASS browser: height547.7px, no headings, centeredCA, shop rectangle and readable Defense.
+PASS APK code206: original certificate, signaturev2/v3, alignment, CRC,37assets. No physical device installation.

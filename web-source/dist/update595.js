@@ -1,0 +1,12 @@
+/* 5.95: compact labels, natural scroll chaining, native update controls. */
+const style595=document.createElement('style');style595.textContent=`
+body.web-grid580 .wall-panel582{overscroll-behavior-y:auto!important}
+body #view .checks-panels463 .ability-column585 .ability-panel463>.ability-header463>.ability-heading463,body #view .checks-panels463 .ability-column585 .ability-panel463>.ability-header463>.ability-heading463>span{font-size:clamp(8px,2.2cqi,11px)!important;white-space:nowrap!important;letter-spacing:-.25px!important;overflow-wrap:normal!important;word-break:normal!important}
+body #view .checks-panels463 .ability-column585 .ability-panel463{container-type:inline-size}
+body #view .checks56 .ability-column585 .check-name463{font-size:clamp(8px,2.2cqi,11px)!important;white-space:nowrap!important;letter-spacing:-.2px!important;overflow-wrap:normal!important;word-break:normal!important}
+body #view .checks56 .ability-column585 .check-button56{gap:4px!important;padding-inline:4px!important}
+`;document.head.append(style595);
+// Do not change spatial coordinates or intercept scrolling in dialogs/inputs.
+const layoutBefore595=layoutPanels582;layoutPanels582=function(){const r=layoutBefore595();if(typeof WEB580!=='undefined'&&WEB580){for(const el of document.querySelectorAll('#web-dashboard573 [data-spatial593]')){el.style.setProperty('overscroll-behavior-y','auto','important');}}return r;};
+const settingsBefore595=openSettings48;openSettings48=function(){const r=settingsBefore595();const p=document.querySelector('.release-version569');if(p)p.textContent=text554('Versão','Version')+' 5.95';if(window.CodiceAndroid&&typeof CodiceAndroid.checkUpdate595==='function'){const body=document.getElementById('play-body');const section=document.createElement('fieldset');section.innerHTML=`<legend>${text554('Atualizações','Software Update')}</legend><p id="update-status595" role="status"></p><button type="button" id="check-update595">${text554('Verificar atualizações','Check for Updates')}</button> <button type="button" id="rollback-update595">${text554('Restaurar versão anterior','Restore previous version')}</button>`;body.append(section);section.querySelector('#check-update595').onclick=()=>CodiceAndroid.checkUpdate595();section.querySelector('#rollback-update595').onclick=()=>CodiceAndroid.rollbackUpdate595();}return r;};
+window.CODICE_APP_VERSION595='5.95';render();

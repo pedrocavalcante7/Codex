@@ -1,0 +1,1 @@
+PASS persistence: completed fixed test sheet; exact edited data survives reload/update; backup recovery before boot; other sheets preserved; no reset or duplicates; intentional deletion respected; settings shortcut

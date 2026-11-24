@@ -1,0 +1,37 @@
+[
+  {
+    "test": "qa573-web.cjs",
+    "code": 0,
+    "output": "PASS 5.73 web: all four sections, no tabs or character bar, no duplicate controls on repeated renders\n"
+  },
+  {
+    "test": "qa574-web.cjs",
+    "code": 0,
+    "output": "PASS 5.74: deletion/cancel/last sheet persistence, live color square, English ordinals/prices/beam notes and spell source\n"
+  },
+  {
+    "test": "qa575-web.cjs",
+    "code": 0,
+    "output": "PASS 5.75: four distinct ear shapes, skin color binding, tusks toggle, saved options, inferred Orc defaults, silver SP/Portuguese PP prices\n"
+  },
+  {
+    "test": "qa576-web.cjs",
+    "code": 0,
+    "output": "PASS 5.76: shared full-width parchment, 16px symmetric insets, internal controls, rerender idempotence, collapse/expand and spell filters\n"
+  },
+  {
+    "test": "qa577-web.cjs",
+    "code": 0,
+    "output": "PASS 5.77: matching parchments, both panels collapse/expand independently, keyboard, settings stay usable, state survives rerenders/language and isolates characters\n"
+  },
+  {
+    "test": "qa578-web.cjs",
+    "code": 0,
+    "output": "PASS 5.78: attack/damage modifier controls match skills/saves, enabled toggles and numeric editing remain functional, values survive rerender and language changes\n"
+  },
+  {
+    "test": "qa582-web.cjs",
+    "code": 0,
+    "output": "PASS 5.82: branding, themed ASI/species/class selectors, organized settings, eligible invocations and dependency cleanup, inventory header/sorting/persistence, feature edit settings, adaptive avatar shadow, asynchronous startup\n"
+  }
+]

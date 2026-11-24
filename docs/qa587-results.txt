@@ -1,0 +1,41 @@
+Codex5.87 — all required checks passed. Historic standalone-attribute assertions updated to the requested integrated structure; previous diagnostic attempts omitted below.
+
+qa584 0 PASS 5.84 Android: unified draggable summary/stable identity, proficiency crest, grouped/alphabetic invocation picker and list typography, HP amount/damage/heal/temp, Hexblood appearance/custom colors, spell order actual DOM and reload, class icon, attack header, proficiency tiers, creator wheel isolation, characters and asynchronous startup
+qa568 0 PASS HEXBLOOD: catalog PT/EN, both sizes, Fey type, 3 casting abilities, permanent spells, independent daily uses, short/long rests and species removal
+PASS 5.64: batch selection, search preservation, cancel, cantrip/spell caps, atomic save with one render, localized alphabetical features with stable rule indexes, read-only HP
+PASS 5.65: no hidden factory work, closed-dialog formatting isolation, stable catalog indexes with extension invalidation and synchronous saved character data
+PASS 5.66: settings gear, manual order persistence, language stability, independent characters, alphabetical/level/origin modes and stable detail indexes
+PASS 5.67 actual main-panel clicks: arrow + Apply, matching panel order, reload, rerender, tab reuse and correct detail identity
+PASS 5.68 visible labeled organizer, SVG, languages, collapsed access, no duplicates and repair
+PASS 5.62: + and Start creation, blank/cancel paths, two completed sheets preserving existing HP, no render per name keystroke, haptic native/browser preference, subtle control selection, modal warmup pause and coalesced layout
+qa581-startup 0 {"microtasks":0,"limited":false,"title":"Codex","logo":"Codex","errors":[]}
+qa582 0 PASS 5.82: branding, themed ASI/species/class selectors, organized settings, eligible invocations and dependency cleanup, inventory header/sorting/persistence, feature edit settings, adaptive avatar shadow, asynchronous startup
+qa583 0 PASS 5.83 Android: integrated summary, invocation dialog, HP updates, themed settings, bilingual proficiency, stable panel order/reload, character preservation and asynchronous startup
+qa573 0 PASS 5.73: equipment opt-in, ordered tabs, character menu, atomic background swap, point-buy no rebuilds, skill batch, inferred avatar, all new layers/colors/ages/expressions and themed wheel
+qa574 0 PASS 5.74: deletion/cancel/last sheet persistence, live color square, English ordinals/prices/beam notes and spell source
+qa575 0 PASS 5.75: four distinct ear shapes, skin color binding, tusks toggle, saved options, inferred Orc defaults, silver SP/Portuguese PP prices
+qa576 0 PASS 5.76: shared full-width parchment, 16px symmetric insets, internal controls, rerender idempotence, collapse/expand and spell filters
+qa577 0 PASS 5.77: matching parchments, both panels collapse/expand independently, keyboard, settings stay usable, state survives rerenders/language and isolates characters
+qa578 0 PASS 5.78: attack/damage modifier controls match skills/saves, enabled toggles and numeric editing remain functional, values survive rerender and language changes
+qa579 0 PASS 5.79: tabs/vertical switching, single column/equal gaps, settings persistence, smooth end loop, no loop when disabled/mid-page/dialog, wheel trigger, no duplicate sections
+qa580 0 PASS 5.80: English name/logo; themed selectors; Spells before Skills; invocation table/detail/nested feat auto-grants and cleanup; complete discoverable catalog/prerequisites; Investment choices; Tome spells; web grid/no tabs
+qa573-web 0 PASS 5.73 web: all four sections, no tabs or character bar, no duplicate controls on repeated renders
+qa574-web 0 PASS 5.74: deletion/cancel/last sheet persistence, live color square, English ordinals/prices/beam notes and spell source
+qa575-web 0 PASS 5.75: four distinct ear shapes, skin color binding, tusks toggle, saved options, inferred Orc defaults, silver SP/Portuguese PP prices
+qa576-web 0 PASS 5.76: shared full-width parchment, 16px symmetric insets, internal controls, rerender idempotence, collapse/expand and spell filters
+qa577-web 0 PASS 5.77: matching parchments, both panels collapse/expand independently, keyboard, settings stay usable, state survives rerenders/language and isolates characters
+qa578-web 0 PASS 5.78: attack/damage modifier controls match skills/saves, enabled toggles and numeric editing remain functional, values survive rerender and language changes
+qa579-web 0 PASS web navigation: always grid/no tabs, legacy tabs preference accepted without hiding panels, single integrated summary, no duplicate sections
+qa580-web 0 PASS 5.80: English name/logo; themed selectors; Spells before Skills; invocation table/detail/nested feat auto-grants and cleanup; complete discoverable catalog/prerequisites; Investment choices; Tome spells; web grid/no tabs
+qa582-web 0 PASS 5.82: branding, themed ASI/species/class selectors, organized settings, eligible invocations and dependency cleanup, inventory header/sorting/persistence, feature edit settings, adaptive avatar shadow, asynchronous startup
+PASS 5.83 web: integrated summary, invocation dialog, HP updates, themed settings, bilingual proficiency, stable panel order/reload, character preservation and asynchronous startup
+PASS 5.84 web: unified draggable summary/stable identity, proficiency crest, grouped/alphabetic invocation picker and list typography, HP amount/damage/heal/temp, Hexblood appearance/custom colors, spell order actual DOM and reload, class icon, attack header, proficiency tiers, creator wheel isolation, characters and asynchronous startup
+PASS 5.85 web: two independent skill columns, all six ability rolls/saves and18skills preserved, expertise state and roll handlers, equal titles, heart number -5px, unified layout, rerender/character switching/reload preserve values
+PASS 5.86 web: full skill collapse/expand, bold labels, identical add icons, inventory filter/query/equipped/reset without data mutation, separate title/abilities/HP panels, stable identities, rerender/switch/reload preserve characters
+PASS 5.87 web: full skill collapse/expand, bold labels, identical add icons, inventory filter/query/equipped/reset without data mutation, integrated attributes/HP panel, separate title, stable identities, rerender/switch/reload preserve characters
+PASS persistence: completed fixed test sheet; exact edited data survives reload/update; backup recovery before boot; other sheets preserved; no reset or duplicates; intentional deletion respected; settings shortcut
+PASS qa570 Android: invocation feats, nested choices, cleanup and filters
+PASS qa587 Android: integrated attributes/HP, live controls and reload
+PASS APK: code205; signature v2/v3, alignment, CRC,37assets, package/certificate retained
+PASS browser: six attributes, unified border, HP tiles, wallet, no horizontal overflow
+No physical-device installation test.

@@ -1,0 +1,72 @@
+[
+  {
+    "test": "qa573.cjs",
+    "passed": true,
+    "output": "PASS 5.73: equipment opt-in, ordered tabs, character menu, atomic background swap, point-buy no rebuilds, skill batch, inferred avatar, all new layers/colors/ages/expressions and themed wheel\n"
+  },
+  {
+    "test": "qa573-web.cjs",
+    "passed": true,
+    "output": "PASS 5.73 web: all four sections, no tabs or character bar, no duplicate controls on repeated renders\n"
+  },
+  {
+    "test": "qa574.cjs",
+    "passed": true,
+    "output": "PASS 5.74: deletion/cancel/last sheet persistence, live color square, English ordinals/prices/beam notes and spell source\n"
+  },
+  {
+    "test": "qa574-web.cjs",
+    "passed": true,
+    "output": "PASS 5.74: deletion/cancel/last sheet persistence, live color square, English ordinals/prices/beam notes and spell source\n"
+  },
+  {
+    "test": "qa575.cjs",
+    "passed": true,
+    "output": "PASS 5.75: four distinct ear shapes, skin color binding, tusks toggle, saved options, inferred Orc defaults, silver SP/Portuguese PP prices\n"
+  },
+  {
+    "test": "qa575-web.cjs",
+    "passed": true,
+    "output": "PASS 5.75: four distinct ear shapes, skin color binding, tusks toggle, saved options, inferred Orc defaults, silver SP/Portuguese PP prices\n"
+  },
+  {
+    "test": "qa576.cjs",
+    "passed": true,
+    "output": "PASS 5.76: shared full-width parchment, 16px symmetric insets, internal controls, rerender idempotence, collapse/expand and spell filters\n"
+  },
+  {
+    "test": "qa576-web.cjs",
+    "passed": true,
+    "output": "PASS 5.76: shared full-width parchment, 16px symmetric insets, internal controls, rerender idempotence, collapse/expand and spell filters\n"
+  },
+  {
+    "test": "qa577.cjs",
+    "passed": true,
+    "output": "PASS 5.77: matching parchments, both panels collapse/expand independently, keyboard, settings stay usable, state survives rerenders/language and isolates characters\n"
+  },
+  {
+    "test": "qa577-web.cjs",
+    "passed": true,
+    "output": "PASS 5.77: matching parchments, both panels collapse/expand independently, keyboard, settings stay usable, state survives rerenders/language and isolates characters\n"
+  },
+  {
+    "test": "qa578.cjs",
+    "passed": true,
+    "output": "PASS 5.78: attack/damage modifier controls match skills/saves, enabled toggles and numeric editing remain functional, values survive rerender and language changes\n"
+  },
+  {
+    "test": "qa578-web.cjs",
+    "passed": true,
+    "output": "PASS 5.78: attack/damage modifier controls match skills/saves, enabled toggles and numeric editing remain functional, values survive rerender and language changes\n"
+  },
+  {
+    "test": "qa579.cjs",
+    "passed": true,
+    "output": "PASS 5.79: tabs/vertical switching, single column/equal gaps, settings persistence, smooth end loop, no loop when disabled/mid-page/dialog, wheel trigger, no duplicate sections\n"
+  },
+  {
+    "test": "qa579-web.cjs",
+    "passed": true,
+    "output": "PASS 5.79: tabs/vertical switching, single column/equal gaps, settings persistence, smooth end loop, no loop when disabled/mid-page/dialog, wheel trigger, no duplicate sections\n"
+  }
+]

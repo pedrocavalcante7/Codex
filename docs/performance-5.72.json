@@ -1,0 +1,16 @@
+{
+  "environment": "Node/jsdom synthetic, not physical Android",
+  "scenario": "Warlock 11, six Character/Overview switches",
+  "before": {
+    "fullRenders": 6,
+    "ms": 1015
+  },
+  "after": {
+    "fullRenders": 0,
+    "msRange": [
+      14,
+      16
+    ]
+  },
+  "note": "Timings are environment-specific; operation-count regression is enforced by qa572."
+}

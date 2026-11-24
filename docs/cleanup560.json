@@ -1,0 +1,35 @@
+{
+  "scanned_source_files": 19,
+  "deleted_functions": [
+    {
+      "file": "assets/play.js",
+      "name": "tempHPSet",
+      "bytes": 99
+    },
+    {
+      "file": "assets/play.js",
+      "name": "legacyInspirationStar",
+      "bytes": 693
+    },
+    {
+      "file": "assets/play.js",
+      "name": "legacySwitchTab",
+      "bytes": 1180
+    }
+  ],
+  "deleted_initialization_calls": 58,
+  "render_calls": 50,
+  "localization_calls": 8,
+  "removed_utf8_bytes": 2526,
+  "repaired_ocr_features": [
+    "530:3:0",
+    "530:3:1",
+    "546:3:0",
+    "463:14:4",
+    "489:3:0"
+  ],
+  "deleted_unused_aliases": [
+    "priorPlayOverview",
+    "oldBook"
+  ]
+}

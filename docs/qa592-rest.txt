@@ -1,0 +1,47 @@
+native qa570 0 [{"key":"magicClass","count":3},{"key":"cast","count":3},{"key":"cantrip0","count":0},{"key":"cantrip1","count":0},{"key":"spell","count":0}]
+[{"name":"Acid Splash","key":"feat:a9b99345-5274-4ec9-95bb-49781bf73228:0"},{"name":"Blade Ward","key":"feat:a9b99345-5274-4ec9-95bb-49781bf73228:213"},{"name":"Alarm","key":"feat:a9b99345-5274-4ec9-95bb-49781bf73228:2"}]
+[{"name":"Acid Splash","text":"Acid Splash\nEvocation Cantrip (Sorcerer, Wizard)\nCasting Time: Action\nRange: 60 feet\nComponents: V, S\nDuration: Instantaneous\nYou create an acidic bubble at a point within range,\nwhere it explodes in a 5-foot-radius Sphere. Each\ncreature in that Sphere must succeed on a Dexterity\nsaving throw or take ld6 Acid damage.\nCantrip Upgrade. The damage inc","meta":{"time":"action","ritual":false,"concentration":false,"range":"60 feet","components":"V, S","duration":"Instantaneous"}},{"name":"Blade Ward","text":"Blade Ward\nAbjuration Cantrip (Bard, Sorcerer, Warlock, Wizard)\nCasting Time: Action\nRange: Self\nComponents: V, S\nDuration: Concentration, up to 1 minute\nWhenever a creature makes an attack roll against\nyou before the spell ends, the attacker subtracts ld4\nfrom the attack roll.","meta":{"time":"action","ritual":false,"concentration":true,"range":"Self","components":"V, S","duration":"Concentration, up to 1 minute"}}]
+PASS 5.70 invocation feats, nested magic and skill choices, cleanup, dark blue bars, spell filters, bilingual labels
+
+native qa581-startup 0 {"microtasks":0,"limited":false,"title":"Codex","logo":"Codex","errors":[]}
+
+native qa582 0 PASS 5.82: branding, themed ASI/species/class selectors, organized settings, eligible invocations and dependency cleanup, inventory header/sorting/persistence, feature edit settings, adaptive avatar shadow, asynchronous startup
+
+native qa573 0 PASS 5.73: equipment opt-in, ordered tabs, character menu, atomic background swap, point-buy no rebuilds, skill batch, inferred avatar, all new layers/colors/ages/expressions and themed wheel
+
+native qa574 0 PASS 5.74: deletion/cancel/last sheet persistence, live color square, English ordinals/prices/beam notes and spell source
+
+native qa575 0 PASS 5.75: four distinct ear shapes, skin color binding, tusks toggle, saved options, inferred Orc defaults, silver SP/Portuguese PP prices
+
+native qa576 0 PASS 5.76: shared full-width parchment, 16px symmetric insets, internal controls, rerender idempotence, collapse/expand and spell filters
+
+native qa577 0 PASS 5.77: matching parchments, both panels collapse/expand independently, keyboard, settings stay usable, state survives rerenders/language and isolates characters
+
+native qa578 0 PASS 5.78: attack/damage modifier controls match skills/saves, enabled toggles and numeric editing remain functional, values survive rerender and language changes
+
+native qa579 0 PASS 5.79: tabs/vertical switching, single column/equal gaps, settings persistence, smooth end loop, no loop when disabled/mid-page/dialog, wheel trigger, no duplicate sections
+
+native qa580 0 PASS 5.80: English name/logo; themed selectors; Spells before Skills; invocation table/detail/nested feat auto-grants and cleanup; complete discoverable catalog/prerequisites; Investment choices; Tome spells; web grid/no tabs
+
+web qa573-web 0 PASS 5.73 web: all four sections, no tabs or character bar, no duplicate controls on repeated renders
+
+web qa574-web 0 PASS 5.74: deletion/cancel/last sheet persistence, live color square, English ordinals/prices/beam notes and spell source
+
+web qa575-web 0 PASS 5.75: four distinct ear shapes, skin color binding, tusks toggle, saved options, inferred Orc defaults, silver SP/Portuguese PP prices
+
+web qa576-web 0 PASS 5.76: shared full-width parchment, 16px symmetric insets, internal controls, rerender idempotence, collapse/expand and spell filters
+
+web qa577-web 0 PASS 5.77: matching parchments, both panels collapse/expand independently, keyboard, settings stay usable, state survives rerenders/language and isolates characters
+
+web qa578-web 0 PASS 5.78: attack/damage modifier controls match skills/saves, enabled toggles and numeric editing remain functional, values survive rerender and language changes
+
+web qa579-web 0 PASS web navigation: always grid/no tabs, legacy tabs preference accepted without hiding panels, single integrated summary, no duplicate sections
+
+web qa580-web 0 PASS 5.80: English name/logo; themed selectors; Spells before Skills; invocation table/detail/nested feat auto-grants and cleanup; complete discoverable catalog/prerequisites; Investment choices; Tome spells; web grid/no tabs
+
+web qa582-web 0 PASS 5.82: branding, themed ASI/species/class selectors, organized settings, eligible invocations and dependency cleanup, inventory header/sorting/persistence, feature edit settings, adaptive avatar shadow, asynchronous startup
+
+web qa589 0 PASS 5.89 web: full skill collapse/expand, bold labels, identical add icons, inventory filter/query/equipped/reset without data mutation, integrated attributes/HP panel, separate title, stable identities, rerender/switch/reload preserve characters
+
+web qa589-drag 0 PASS 5.89 drag, quick pointer, cancel, stable identity, settings deletion, reload web
+

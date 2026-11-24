@@ -1,0 +1,15 @@
+OK: all 37 packaged assets are accessible through the Android loader.
+Packaged revision; original classes.dex and resources retained.
+PASS APK CRC, unique entries, uncompressed/aligned resources, manifest chunk sizes, DEX header
+{
+  "application_id": "br.com.codice.aventureiro.novo",
+  "application_label": "Codex",
+  "version": "5.94",
+  "version_code": 212,
+  "certificate_sha256": "5cf3155973dd295d9755f057142f8f5c3f7ffc01f0514dfa5d65f8d720f93b36",
+  "sha256": "09243b4b9515c2d637e25ee5c0ea9842f49679a352b00979b253b9f4b12efe8d",
+  "size": 25807901,
+  "side_by_side": true,
+  "device_install_test": false,
+  "verified": "signature v2/v3, manifest, launcher class, alignment, CRC, all 37 assets, unchanged DEX/resources"
+}

@@ -1,0 +1,11 @@
+{
+  "version_name": "5.68",
+  "version_code": 186,
+  "base_version": "5.67",
+  "size": 22846489,
+  "sha256": "de31531ef84a17c053ae78bb525187f649a5e6e72a2e3b85bbe0dde7428cc909",
+  "certificate_sha256": "7f5e77dd090f1ac3b80c48fd0b9b377c5e9130c75c10c8c132c9a1130c8a1041",
+  "native": "DEX and resources identical to 5.67",
+  "assets": "all source files verified in APK",
+  "physical_install_test": false
+}

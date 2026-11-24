@@ -1,0 +1,1 @@
+{"name":"codice-continuity-qa","version":"4.84.0","private":true,"description":"Ambiente isolado para os testes DOM do Códice","dependencies":{"jsdom":"26.1.0"},"devDependencies":{"acorn":"^8.15.0"}}

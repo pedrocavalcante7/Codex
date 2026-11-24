@@ -1,0 +1,7 @@
+*.p12
+*.jks
+*assinatura-backup*.json
+*.pem
+node_modules/
+release/
+project/android-codice/build/

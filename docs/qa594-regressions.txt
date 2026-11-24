@@ -1,0 +1,130 @@
+native qa593 0 WEAPON Adjust Weapon×AbilityAutomaticSTRENGTHDEXTERITYCONSTITUTIONINTELLIGENCEWISDOMCHARISMAAutomaticPROFICIENCYFrom classYesNoFrom classMagic bonus-3-2-101230Use two hands (Versatile)Apply the Dueling fighting style when eligible and no other weapon is wieldedExtra attack from the Light propertyRemove Weapon
+PASS 593
+
+web qa593 0 WEAPON Adjust Weapon×AbilityAutomaticSTRENGTHDEXTERITYCONSTITUTIONINTELLIGENCEWISDOMCHARISMAAutomaticPROFICIENCYFrom classYesNoFrom classMagic bonus-3-2-101230Use two hands (Versatile)Apply the Dueling fighting style when eligible and no other weapon is wieldedExtra attack from the Light propertyRemove Weapon
+PASS 593
+
+native qa568 0 PASS HEXBLOOD: catalog PT/EN, both sizes, Fey type, 3 casting abilities, permanent spells, independent daily uses, short/long rests and species removal
+PASS 5.64: batch selection, search preservation, cancel, cantrip/spell caps, atomic save with one render, localized alphabetical features with stable rule indexes, read-only HP
+PASS 5.65: no hidden factory work, closed-dialog formatting isolation, stable catalog indexes with extension invalidation and synchronous saved character data
+PASS 5.66: settings gear, manual order persistence, language stability, independent characters, alphabetical/level/origin modes and stable detail indexes
+PASS 5.67 actual main-panel clicks: arrow + Apply, matching panel order, reload, rerender, tab reuse and correct detail identity
+PASS 5.68 visible labeled organizer, SVG, languages, collapsed access, no duplicates and repair
+PASS 5.62: + and Start creation, blank/cancel paths, two completed sheets preserving existing HP, no render per name keystroke, haptic native/browser preference, subtle control selection, modal warmup pause and coalesced layout
+
+native qa570 0 [{"key":"magicClass","count":3},{"key":"cast","count":3},{"key":"cantrip0","count":0},{"key":"cantrip1","count":0},{"key":"spell","count":0}]
+[{"name":"Acid Splash","key":"feat:d3492131-aaea-405f-b0cd-fd4c6b26d379:0"},{"name":"Blade Ward","key":"feat:d3492131-aaea-405f-b0cd-fd4c6b26d379:213"},{"name":"Alarm","key":"feat:d3492131-aaea-405f-b0cd-fd4c6b26d379:2"}]
+[{"name":"Acid Splash","text":"Acid Splash\nEvocation Cantrip (Sorcerer, Wizard)\nCasting Time: Action\nRange: 60 feet\nComponents: V, S\nDuration: Instantaneous\nYou create an acidic bubble at a point within range,\nwhere it explodes in a 5-foot-radius Sphere. Each\ncreature in that Sphere must succeed on a Dexterity\nsaving throw or take ld6 Acid damage.\nCantrip Upgrade. The damage inc","meta":{"time":"action","ritual":false,"concentration":false,"range":"60 feet","components":"V, S","duration":"Instantaneous"}},{"name":"Blade Ward","text":"Blade Ward\nAbjuration Cantrip (Bard, Sorcerer, Warlock, Wizard)\nCasting Time: Action\nRange: Self\nComponents: V, S\nDuration: Concentration, up to 1 minute\nWhenever a creature makes an attack roll against\nyou before the spell ends, the attacker subtracts ld4\nfrom the attack roll.","meta":{"time":"action","ritual":false,"concentration":true,"range":"Self","components":"V, S","duration":"Concentration, up to 1 minute"}}]
+PASS 5.70 invocation feats, nested magic and skill choices, cleanup, dark blue bars, spell filters, bilingual labels
+
+native qa581-startup 0 {"microtasks":0,"limited":false,"title":"Codex","logo":"Codex","errors":[]}
+
+native qa582 1 node:internal/assert/utils:77
+    throw err;
+    ^
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert(run("svg582.includes('avatar-ground582')"))
+
+    at Object.<anonymous> (/workspace/scratch/1f0b99f433da/project/Codice-Continuidade/qa/qa582.cjs:31:100)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.22.3
+
+native qa573 1 node:internal/assert/utils:77
+    throw err;
+    ^
+
+AssertionError [ERR_ASSERTION]: #765432
+    at Object.<anonymous> (/workspace/scratch/1f0b99f433da/project/Codice-Continuidade/qa/qa573.cjs:22:417)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.22.3
+
+native qa574 0 PASS 5.74: deletion/cancel/last sheet persistence, live color square, English ordinals/prices/beam notes and spell source
+
+native qa575 0 PASS 5.75: four distinct ear shapes, skin color binding, tusks toggle, saved options, inferred Orc defaults, silver SP/Portuguese PP prices
+
+native qa576 0 PASS 5.76: shared full-width parchment, 16px symmetric insets, internal controls, rerender idempotence, collapse/expand and spell filters
+
+native qa577 0 PASS 5.77: matching parchments, both panels collapse/expand independently, keyboard, settings stay usable, state survives rerenders/language and isolates characters
+
+native qa578 0 PASS 5.78: attack/damage modifier controls match skills/saves, enabled toggles and numeric editing remain functional, values survive rerender and language changes
+
+native qa579 0 PASS 5.79: tabs/vertical switching, single column/equal gaps, settings persistence, smooth end loop, no loop when disabled/mid-page/dialog, wheel trigger, no duplicate sections
+
+native qa580 0 PASS 5.80: English name/logo; themed selectors; Spells before Skills; invocation table/detail/nested feat auto-grants and cleanup; complete discoverable catalog/prerequisites; Investment choices; Tome spells; web grid/no tabs
+
+web qa573-web 0 PASS 5.73 web: all four sections, no tabs or character bar, no duplicate controls on repeated renders
+
+web qa574-web 0 PASS 5.74: deletion/cancel/last sheet persistence, live color square, English ordinals/prices/beam notes and spell source
+
+web qa575-web 0 PASS 5.75: four distinct ear shapes, skin color binding, tusks toggle, saved options, inferred Orc defaults, silver SP/Portuguese PP prices
+
+web qa576-web 0 PASS 5.76: shared full-width parchment, 16px symmetric insets, internal controls, rerender idempotence, collapse/expand and spell filters
+
+web qa577-web 0 PASS 5.77: matching parchments, both panels collapse/expand independently, keyboard, settings stay usable, state survives rerenders/language and isolates characters
+
+web qa578-web 0 PASS 5.78: attack/damage modifier controls match skills/saves, enabled toggles and numeric editing remain functional, values survive rerender and language changes
+
+web qa579-web 0 PASS web navigation: always grid/no tabs, legacy tabs preference accepted without hiding panels, single integrated summary, no duplicate sections
+
+web qa580-web 0 PASS 5.80: English name/logo; themed selectors; Spells before Skills; invocation table/detail/nested feat auto-grants and cleanup; complete discoverable catalog/prerequisites; Investment choices; Tome spells; web grid/no tabs
+
+web qa582-web 1 node:internal/assert/utils:77
+    throw err;
+    ^
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert(run("svg582.includes('avatar-ground582')"))
+
+    at Object.<anonymous> (/workspace/scratch/1f0b99f433da/project/Codice-Continuidade/qa/qa582-web.cjs:31:100)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.22.3
+
+web qa589 0 PASS 5.89 web: full skill collapse/expand, bold labels, identical add icons, inventory filter/query/equipped/reset without data mutation, integrated attributes/HP panel, separate title, stable identities, rerender/switch/reload preserve characters
+
+web qa589-drag 0 PASS 5.89 drag, quick pointer, cancel, stable identity, settings deletion, reload web
+

@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "body-human",
+    "source": "exec-5badbe22-50a7-4cb0-bddc-75318b349746.png",
+    "cell": 0,
+    "crop": [
+      0,
+      0,
+      397,
+      396
+    ],
+    "trim": [
+      155,
+      10,
+      327,
+      389
+    ],
+    "width": 172,
+    "height": 379
+  },
+  {
+    "id": "body-reptile",
+    "source": "exec-5badbe22-50a7-4cb0-bddc-75318b349746.png",
+    "cell": 1,
+    "crop": [
+      397,
+      0,
+      793,
+      396
+    ],
+    "trim": [
+      128,
+      8,
+      302,
+      389
+    ],
+    "width": 174,
+    "height": 381
+  },
+  {
+    "id": "body-bird",
+    "source": "exec-5badbe22-50a7-4cb0-bddc-75318b349746.png",
+    "cell": 2,
+    "crop": [
+      793,
+      0,
+      1190,
+      396
+    ],
+    "trim": [
+      91,
+      7,
+      298,
+      391
+    ],
+    "width": 207,
+    "height": 384
+  },
+  {
+    "id": "body-fur",
+    "source": "exec-5badbe22-50a7-4cb0-bddc-75318b349746.png",
+    "cell": 3,
+    "crop": [
+      1190,
+      0,
+      1586,
+      396
+    ],
+    "trim": [
+      73,
+      7,
+      262,
+      388
+    ],
+    "width": 189,
+    "height": 381
+  },
+  {
+    "id": "body-broad",
+    "source": "exec-5badbe22-50a7-4cb0-bddc-75318b349746.png",
+    "cell": 4,
+    "crop": [
+      1586,
+      0,
+      1983,
+      396
+    ],
+    "trim": [
+      36,
+      8,
+      262,
+      388
+    ],
+    "width": 226,
+    "height": 380
+  },
+  {
+    "id": "body-shortbroad",
+    "source": "exec-5badbe22-50a7-4cb0-bddc-75318b349746.png",
+    "cell": 5,
+    "crop": [
+      0,
+      396,
+      397,
+      793
+    ],
+    "trim": [
+      134,
+      61,
+      344,
+      380
+    ],
+    "width": 210,
+    "height": 319
+  },
+  {
+    "id": "body-smallreptile",
+    "source": "exec-5badbe22-50a7-4cb0-bddc-75318b349746.png",
+    "cell": 6,
+    "crop": [
+      397,
+      396,
+      793,
+      793
+    ],
+    "trim": [
+      144,
+      54,
+      288,
+      381
+    ],
+    "width": 144,
+    "height": 327
+  },
+  {
+    "id": "body-slimsmall",
+    "source": "exec-5badbe22-50a7-4cb0-bddc-75318b349746.png",
+    "cell": 7,
+    "crop": [
+      793,
+      396,
+      1190,
+      793
+    ],
+    "trim": [
+      110,
+      52,
+      266,
+      381
+    ],
+    "width": 156,
+    "height": 329
+  },
+  {
+    "id": "body-pterosaur",
+    "source": "exec-5badbe22-50a7-4cb0-bddc-75318b349746.png",
+    "cell": 8,
+    "crop": [
+      1190,
+      396,
+      1586,
+      793
+    ],
+    "trim": [
+      43,
+      6,
+      271,
+      383
+    ],
+    "width": 228,
+    "height": 377
+  },
+  {
+    "id": "body-aasimar",
+    "source": "exec-5badbe22-50a7-4cb0-bddc-75318b349746.png",
+    "cell": 9,
+    "crop": [
+      1586,
+      396,
+      1983,
+      793
+    ],
+    "trim": [
+      62,
+      7,
+      232,
+      381
+    ],
+    "width": 170,
+    "height": 374
+  },
+  {
+    "id": "hair-short",
+    "source": "exec-f3abc7ca-91c0-472a-92f5-70c2a4f96fff.png",
+    "cell": 0,
+    "crop": [
+      0,
+      0,
+      311,
+      316
+    ],
+    "trim": [
+      37,
+      34,
+      300,
+      263
+    ],
+    "width": 263,
+    "height": 229
+  },
+  {
+    "id": "hair-medium",
+    "source": "exec-f3abc7ca-91c0-472a-92f5-70c2a4f96fff.png",
+    "cell": 1,
+    "crop": [
+      311,
+      0,
+      622,
+      316
+    ],
+    "trim": [
+      24,
+      34,
+      296,
+      291
+    ],
+    "width": 272,
+    "height": 257
+  },
+  {
+    "id": "hair-long",
+    "source": "exec-f3abc7ca-91c0-472a-92f5-70c2a4f96fff.png",
+    "cell": 2,
+    "crop": [
+      622,
+      0,
+      934,
+      316
+    ],
+    "trim": [
+      23,
+      23,
+      286,
+      316
+    ],
+    "width": 263,
+    "height": 293
+  },
+  {
+    "id": "hair-crop",
+    "source": "exec-f3abc7ca-91c0-472a-92f5-70c2a4f96fff.png",
+    "cell": 3,
+    "crop": [
+      934,
+      0,
+      1245,
+      316
+    ],
+    "trim": [
+      45,
+      43,
+      262,
+      222
+    ],
+    "width": 217,
+    "height": 179
+  },
+  {
+    "id": "hair-bob",
+    "source": "exec-f3abc7ca-91c0-472a-92f5-70c2a4f96fff.png",
+    "cell": 4,
+    "crop": [
+      0,
+      316,
+      311,
+      632
+    ],
+    "trim": [
+      37,
+      33,
+      297,
+      264
+    ],
+    "width": 260,
+    "height": 231
+  },
+  {
+    "id": "hair-pixie",
+    "source": "exec-f3abc7ca-91c0-472a-92f5-70c2a4f96fff.png",
+    "cell": 5,
+    "crop": [
+      311,
+      316,
+      622,
+      632
+    ],
+    "trim": [
+      37,
+      31,
+      272,
+      229
+    ],
+    "width": 235,
+    "height": 198
+  },
+  {
+    "id": "hair-curly",
+    "source": "exec-f3abc7ca-91c0-472a-92f5-70c2a4f96fff.png",
+    "cell": 6,
+    "crop": [
+      622,
+      316,
+      934,
+      632
+    ],
+    "trim": [
+      6,
+      0,
+      312,
+      316
+    ],
+    "width": 306,
+    "height": 316
+  },
+  {
+    "id": "hair-afro",
+    "source": "exec-f3abc7ca-91c0-472a-92f5-70c2a4f96fff.png",
+    "cell": 7,
+    "crop": [
+      934,
+      316,
+      1245,
+      632
+    ],
+    "trim": [
+      0,
+      15,
+      293,
+      316
+    ],
+    "width": 293,
+    "height": 301
+  },
+  {
+    "id": "hair-braids",
+    "source": "exec-f3abc7ca-91c0-472a-92f5-70c2a4f96fff.png",
+    "cell": 8,
+    "crop": [
+      0,
+      632,
+      311,
+      947
+    ],
+    "trim": [
+      48,
+      11,
+      273,
+      315
+    ],
+    "width": 225,
+    "height": 304
+  },
+  {
+    "id": "hair-ponytail",
+    "source": "exec-f3abc7ca-91c0-472a-92f5-70c2a4f96fff.png",
+    "cell": 9,
+    "crop": [
+      311,
+      632,
+      622,
+      947
+    ],
+    "trim": [
+      24,
+      5,
+      302,
+      313
+    ],
+    "width": 278,
+    "height": 308
+  },
+  {
+    "id": "hair-bun",
+    "source": "exec-f3abc7ca-91c0-472a-92f5-70c2a4f96fff.png",
+    "cell": 10,
+    "crop": [
+      622,
+      632,
+      934,
+      947
+    ],
+    "trim": [
+      54,
+      0,
+      261,
+      312
+    ],
+    "width": 207,
+    "height": 312
+  },
+  {
+    "id": "hair-mohawk",
+    "source": "exec-f3abc7ca-91c0-472a-92f5-70c2a4f96fff.png",
+    "cell": 11,
+    "crop": [
+      934,
+      632,
+      1245,
+      947
+    ],
+    "trim": [
+      57,
+      0,
+      246,
+      227
+    ],
+    "width": 189,
+    "height": 227
+  },
+  {
+    "id": "hair-undercut",
+    "source": "exec-f3abc7ca-91c0-472a-92f5-70c2a4f96fff.png",
+    "cell": 12,
+    "crop": [
+      0,
+      947,
+      311,
+      1263
+    ],
+    "trim": [
+      35,
+      0,
+      279,
+      291
+    ],
+    "width": 244,
+    "height": 291
+  },
+  {
+    "id": "clothes-Bárbaro",
+    "source": "exec-fc83a478-b108-4fc0-bb6e-4e64eaeb3a70.png",
+    "cell": 0,
+    "crop": [
+      0,
+      0,
+      312,
+      316
+    ],
+    "trim": [
+      34,
+      12,
+      307,
+      307
+    ],
+    "width": 273,
+    "height": 295
+  },
+  {
+    "id": "clothes-Bardo",
+    "source": "exec-fc83a478-b108-4fc0-bb6e-4e64eaeb3a70.png",
+    "cell": 1,
+    "crop": [
+      312,
+      0,
+      623,
+      316
+    ],
+    "trim": [
+      24,
+      15,
+      296,
+      307
+    ],
+    "width": 272,
+    "height": 292
+  },
+  {
+    "id": "clothes-Clérigo",
+    "source": "exec-fc83a478-b108-4fc0-bb6e-4e64eaeb3a70.png",
+    "cell": 2,
+    "crop": [
+      623,
+      0,
+      934,
+      316
+    ],
+    "trim": [
+      25,
+      13,
+      283,
+      311
+    ],
+    "width": 258,
+    "height": 298
+  },
+  {
+    "id": "clothes-Druida",
+    "source": "exec-fc83a478-b108-4fc0-bb6e-4e64eaeb3a70.png",
+    "cell": 3,
+    "crop": [
+      934,
+      0,
+      1246,
+      316
+    ],
+    "trim": [
+      13,
+      13,
+      300,
+      306
+    ],
+    "width": 287,
+    "height": 293
+  },
+  {
+    "id": "clothes-Guerreiro",
+    "source": "exec-fc83a478-b108-4fc0-bb6e-4e64eaeb3a70.png",
+    "cell": 4,
+    "crop": [
+      0,
+      316,
+      312,
+      631
+    ],
+    "trim": [
+      26,
+      6,
+      300,
+      304
+    ],
+    "width": 274,
+    "height": 298
+  },
+  {
+    "id": "clothes-Monge",
+    "source": "exec-fc83a478-b108-4fc0-bb6e-4e64eaeb3a70.png",
+    "cell": 5,
+    "crop": [
+      312,
+      316,
+      623,
+      631
+    ],
+    "trim": [
+      17,
+      6,
+      288,
+      304
+    ],
+    "width": 271,
+    "height": 298
+  },
+  {
+    "id": "clothes-Paladino",
+    "source": "exec-fc83a478-b108-4fc0-bb6e-4e64eaeb3a70.png",
+    "cell": 6,
+    "crop": [
+      623,
+      316,
+      934,
+      631
+    ],
+    "trim": [
+      14,
+      7,
+      311,
+      310
+    ],
+    "width": 297,
+    "height": 303
+  },
+  {
+    "id": "clothes-Patrulheiro",
+    "source": "exec-fc83a478-b108-4fc0-bb6e-4e64eaeb3a70.png",
+    "cell": 7,
+    "crop": [
+      934,
+      316,
+      1246,
+      631
+    ],
+    "trim": [
+      0,
+      9,
+      307,
+      307
+    ],
+    "width": 307,
+    "height": 298
+  },
+  {
+    "id": "clothes-Ladino",
+    "source": "exec-fc83a478-b108-4fc0-bb6e-4e64eaeb3a70.png",
+    "cell": 8,
+    "crop": [
+      0,
+      631,
+      312,
+      946
+    ],
+    "trim": [
+      16,
+      6,
+      288,
+      306
+    ],
+    "width": 272,
+    "height": 300
+  },
+  {
+    "id": "clothes-Feiticeiro",
+    "source": "exec-fc83a478-b108-4fc0-bb6e-4e64eaeb3a70.png",
+    "cell": 9,
+    "crop": [
+      312,
+      631,
+      623,
+      946
+    ],
+    "trim": [
+      8,
+      7,
+      288,
+      311
+    ],
+    "width": 280,
+    "height": 304
+  },
+  {
+    "id": "clothes-Bruxo",
+    "source": "exec-fc83a478-b108-4fc0-bb6e-4e64eaeb3a70.png",
+    "cell": 10,
+    "crop": [
+      623,
+      631,
+      934,
+      946
+    ],
+    "trim": [
+      4,
+      7,
+      298,
+      310
+    ],
+    "width": 294,
+    "height": 303
+  },
+  {
+    "id": "clothes-Mago",
+    "source": "exec-fc83a478-b108-4fc0-bb6e-4e64eaeb3a70.png",
+    "cell": 11,
+    "crop": [
+      934,
+      631,
+      1246,
+      946
+    ],
+    "trim": [
+      2,
+      7,
+      306,
+      310
+    ],
+    "width": 304,
+    "height": 303
+  },
+  {
+    "id": "clothes-rags",
+    "source": "exec-fc83a478-b108-4fc0-bb6e-4e64eaeb3a70.png",
+    "cell": 12,
+    "crop": [
+      0,
+      946,
+      312,
+      1262
+    ],
+    "trim": [
+      17,
+      11,
+      312,
+      303
+    ],
+    "width": 295,
+    "height": 292
+  },
+  {
+    "id": "clothes-fine",
+    "source": "exec-fc83a478-b108-4fc0-bb6e-4e64eaeb3a70.png",
+    "cell": 13,
+    "crop": [
+      312,
+      946,
+      623,
+      1262
+    ],
+    "trim": [
+      0,
+      6,
+      298,
+      305
+    ],
+    "width": 298,
+    "height": 299
+  },
+  {
+    "id": "hand-sword",
+    "source": "exec-44cf77f8-64e1-451f-8f32-33a43cf43865.png",
+    "cell": 0,
+    "crop": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "trim": [
+      134,
+      6,
+      258,
+      351
+    ],
+    "width": 124,
+    "height": 345
+  },
+  {
+    "id": "hand-shield",
+    "source": "exec-44cf77f8-64e1-451f-8f32-33a43cf43865.png",
+    "cell": 1,
+    "crop": [
+      362,
+      0,
+      724,
+      362
+    ],
+    "trim": [
+      56,
+      68,
+      307,
+      324
+    ],
+    "width": 251,
+    "height": 256
+  },
+  {
+    "id": "hand-spear",
+    "source": "exec-44cf77f8-64e1-451f-8f32-33a43cf43865.png",
+    "cell": 2,
+    "crop": [
+      724,
+      0,
+      1086,
+      362
+    ],
+    "trim": [
+      165,
+      6,
+      202,
+      353
+    ],
+    "width": 37,
+    "height": 347
+  },
+  {
+    "id": "hand-scythe",
+    "source": "exec-44cf77f8-64e1-451f-8f32-33a43cf43865.png",
+    "cell": 3,
+    "crop": [
+      1086,
+      0,
+      1448,
+      362
+    ],
+    "trim": [
+      117,
+      14,
+      311,
+      351
+    ],
+    "width": 194,
+    "height": 337
+  },
+  {
+    "id": "hand-bow",
+    "source": "exec-44cf77f8-64e1-451f-8f32-33a43cf43865.png",
+    "cell": 4,
+    "crop": [
+      0,
+      362,
+      362,
+      724
+    ],
+    "trim": [
+      141,
+      9,
+      224,
+      352
+    ],
+    "width": 83,
+    "height": 343
+  },
+  {
+    "id": "hand-mace",
+    "source": "exec-44cf77f8-64e1-451f-8f32-33a43cf43865.png",
+    "cell": 5,
+    "crop": [
+      362,
+      362,
+      724,
+      724
+    ],
+    "trim": [
+      124,
+      9,
+      239,
+      343
+    ],
+    "width": 115,
+    "height": 334
+  },
+  {
+    "id": "hand-greatsword",
+    "source": "exec-44cf77f8-64e1-451f-8f32-33a43cf43865.png",
+    "cell": 6,
+    "crop": [
+      724,
+      362,
+      1086,
+      724
+    ],
+    "trim": [
+      108,
+      7,
+      258,
+      354
+    ],
+    "width": 150,
+    "height": 347
+  },
+  {
+    "id": "hand-greataxe",
+    "source": "exec-44cf77f8-64e1-451f-8f32-33a43cf43865.png",
+    "cell": 7,
+    "crop": [
+      1086,
+      362,
+      1448,
+      724
+    ],
+    "trim": [
+      75,
+      7,
+      287,
+      348
+    ],
+    "width": 212,
+    "height": 341
+  },
+  {
+    "id": "hand-axe",
+    "source": "exec-44cf77f8-64e1-451f-8f32-33a43cf43865.png",
+    "cell": 8,
+    "crop": [
+      0,
+      724,
+      362,
+      1086
+    ],
+    "trim": [
+      114,
+      19,
+      241,
+      345
+    ],
+    "width": 127,
+    "height": 326
+  },
+  {
+    "id": "hand-halberd",
+    "source": "exec-44cf77f8-64e1-451f-8f32-33a43cf43865.png",
+    "cell": 9,
+    "crop": [
+      362,
+      724,
+      724,
+      1086
+    ],
+    "trim": [
+      112,
+      7,
+      246,
+      357
+    ],
+    "width": 134,
+    "height": 350
+  },
+  {
+    "id": "hand-glaive",
+    "source": "exec-44cf77f8-64e1-451f-8f32-33a43cf43865.png",
+    "cell": 10,
+    "crop": [
+      724,
+      724,
+      1086,
+      1086
+    ],
+    "trim": [
+      149,
+      6,
+      211,
+      358
+    ],
+    "width": 62,
+    "height": 352
+  },
+  {
+    "id": "hand-staff",
+    "source": "exec-44cf77f8-64e1-451f-8f32-33a43cf43865.png",
+    "cell": 11,
+    "crop": [
+      1086,
+      724,
+      1448,
+      1086
+    ],
+    "trim": [
+      169,
+      8,
+      196,
+      352
+    ],
+    "width": 27,
+    "height": 344
+  },
+  {
+    "id": "hand-magicstaff",
+    "source": "exec-94a28a86-bf50-4c10-9b7e-a38cfd86e38a.png",
+    "cell": 0,
+    "crop": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "trim": [
+      139,
+      4,
+      256,
+      350
+    ],
+    "width": 117,
+    "height": 346
+  },
+  {
+    "id": "hand-crook",
+    "source": "exec-94a28a86-bf50-4c10-9b7e-a38cfd86e38a.png",
+    "cell": 1,
+    "crop": [
+      362,
+      0,
+      724,
+      362
+    ],
+    "trim": [
+      129,
+      11,
+      252,
+      349
+    ],
+    "width": 123,
+    "height": 338
+  },
+  {
+    "id": "hand-scepter",
+    "source": "exec-94a28a86-bf50-4c10-9b7e-a38cfd86e38a.png",
+    "cell": 2,
+    "crop": [
+      724,
+      0,
+      1086,
+      362
+    ],
+    "trim": [
+      124,
+      4,
+      237,
+      342
+    ],
+    "width": 113,
+    "height": 338
+  },
+  {
+    "id": "hand-wand",
+    "source": "exec-94a28a86-bf50-4c10-9b7e-a38cfd86e38a.png",
+    "cell": 3,
+    "crop": [
+      1086,
+      0,
+      1448,
+      362
+    ],
+    "trim": [
+      162,
+      9,
+      204,
+      342
+    ],
+    "width": 42,
+    "height": 333
+  },
+  {
+    "id": "hand-lute",
+    "source": "exec-94a28a86-bf50-4c10-9b7e-a38cfd86e38a.png",
+    "cell": 4,
+    "crop": [
+      0,
+      362,
+      362,
+      724
+    ],
+    "trim": [
+      74,
+      6,
+      271,
+      349
+    ],
+    "width": 197,
+    "height": 343
+  },
+  {
+    "id": "hand-flute",
+    "source": "exec-94a28a86-bf50-4c10-9b7e-a38cfd86e38a.png",
+    "cell": 5,
+    "crop": [
+      362,
+      362,
+      724,
+      724
+    ],
+    "trim": [
+      56,
+      33,
+      307,
+      323
+    ],
+    "width": 251,
+    "height": 290
+  },
+  {
+    "id": "hand-violin",
+    "source": "exec-94a28a86-bf50-4c10-9b7e-a38cfd86e38a.png",
+    "cell": 6,
+    "crop": [
+      724,
+      362,
+      1086,
+      724
+    ],
+    "trim": [
+      76,
+      6,
+      280,
+      340
+    ],
+    "width": 204,
+    "height": 334
+  },
+  {
+    "id": "hand-dagger",
+    "source": "exec-94a28a86-bf50-4c10-9b7e-a38cfd86e38a.png",
+    "cell": 7,
+    "crop": [
+      1086,
+      362,
+      1448,
+      724
+    ],
+    "trim": [
+      121,
+      6,
+      242,
+      348
+    ],
+    "width": 121,
+    "height": 342
+  },
+  {
+    "id": "hand-lightcrossbow",
+    "source": "exec-94a28a86-bf50-4c10-9b7e-a38cfd86e38a.png",
+    "cell": 8,
+    "crop": [
+      0,
+      724,
+      362,
+      1086
+    ],
+    "trim": [
+      17,
+      10,
+      346,
+      350
+    ],
+    "width": 329,
+    "height": 340
+  },
+  {
+    "id": "hand-handcrossbow",
+    "source": "exec-94a28a86-bf50-4c10-9b7e-a38cfd86e38a.png",
+    "cell": 9,
+    "crop": [
+      362,
+      724,
+      724,
+      1086
+    ],
+    "trim": [
+      34,
+      70,
+      334,
+      269
+    ],
+    "width": 300,
+    "height": 199
+  },
+  {
+    "id": "hand-rapier",
+    "source": "exec-94a28a86-bf50-4c10-9b7e-a38cfd86e38a.png",
+    "cell": 10,
+    "crop": [
+      724,
+      724,
+      1086,
+      1086
+    ],
+    "trim": [
+      115,
+      0,
+      237,
+      352
+    ],
+    "width": 122,
+    "height": 352
+  },
+  {
+    "id": "hand-whip",
+    "source": "exec-94a28a86-bf50-4c10-9b7e-a38cfd86e38a.png",
+    "cell": 11,
+    "crop": [
+      1086,
+      724,
+      1448,
+      1086
+    ],
+    "trim": [
+      3,
+      43,
+      347,
+      324
+    ],
+    "width": 344,
+    "height": 281
+  },
+  {
+    "id": "anatomy-horn-small",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 0,
+    "crop": [
+      0,
+      0,
+      362,
+      272
+    ],
+    "trim": [
+      107,
+      132,
+      255,
+      186
+    ],
+    "width": 148,
+    "height": 54
+  },
+  {
+    "id": "anatomy-horn-medium",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 1,
+    "crop": [
+      362,
+      0,
+      724,
+      272
+    ],
+    "trim": [
+      22,
+      101,
+      344,
+      195
+    ],
+    "width": 322,
+    "height": 94
+  },
+  {
+    "id": "anatomy-horn-large",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 2,
+    "crop": [
+      724,
+      0,
+      1086,
+      272
+    ],
+    "trim": [
+      17,
+      17,
+      358,
+      237
+    ],
+    "width": 341,
+    "height": 220
+  },
+  {
+    "id": "anatomy-horn-simple",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 3,
+    "crop": [
+      1086,
+      0,
+      1448,
+      272
+    ],
+    "trim": [
+      103,
+      65,
+      271,
+      208
+    ],
+    "width": 168,
+    "height": 143
+  },
+  {
+    "id": "anatomy-horn-ram",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 4,
+    "crop": [
+      0,
+      272,
+      362,
+      543
+    ],
+    "trim": [
+      16,
+      50,
+      350,
+      206
+    ],
+    "width": 334,
+    "height": 156
+  },
+  {
+    "id": "anatomy-horn-branches",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 5,
+    "crop": [
+      362,
+      272,
+      724,
+      543
+    ],
+    "trim": [
+      18,
+      11,
+      346,
+      218
+    ],
+    "width": 328,
+    "height": 207
+  },
+  {
+    "id": "anatomy-horn-deer",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 6,
+    "crop": [
+      724,
+      272,
+      1086,
+      543
+    ],
+    "trim": [
+      19,
+      13,
+      348,
+      217
+    ],
+    "width": 329,
+    "height": 204
+  },
+  {
+    "id": "anatomy-ears-small",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 7,
+    "crop": [
+      1086,
+      272,
+      1448,
+      543
+    ],
+    "trim": [
+      79,
+      104,
+      280,
+      166
+    ],
+    "width": 201,
+    "height": 62
+  },
+  {
+    "id": "anatomy-ears-normal",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 8,
+    "crop": [
+      0,
+      543,
+      362,
+      814
+    ],
+    "trim": [
+      54,
+      37,
+      343,
+      271
+    ],
+    "width": 289,
+    "height": 234
+  },
+  {
+    "id": "anatomy-ears-large",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 9,
+    "crop": [
+      362,
+      543,
+      724,
+      814
+    ],
+    "trim": [
+      23,
+      8,
+      351,
+      271
+    ],
+    "width": 328,
+    "height": 263
+  },
+  {
+    "id": "anatomy-ears-pointed",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 10,
+    "crop": [
+      724,
+      543,
+      1086,
+      814
+    ],
+    "trim": [
+      18,
+      14,
+      344,
+      271
+    ],
+    "width": 326,
+    "height": 257
+  },
+  {
+    "id": "anatomy-tusks-orc",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 11,
+    "crop": [
+      1086,
+      543,
+      1448,
+      814
+    ],
+    "trim": [
+      78,
+      66,
+      344,
+      271
+    ],
+    "width": 266,
+    "height": 205
+  },
+  {
+    "id": "anatomy-tail-tiefling",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 12,
+    "crop": [
+      0,
+      814,
+      362,
+      1086
+    ],
+    "trim": [
+      32,
+      0,
+      346,
+      236
+    ],
+    "width": 314,
+    "height": 236
+  },
+  {
+    "id": "anatomy-tail-lizard",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 13,
+    "crop": [
+      362,
+      814,
+      724,
+      1086
+    ],
+    "trim": [
+      19,
+      0,
+      351,
+      238
+    ],
+    "width": 332,
+    "height": 238
+  },
+  {
+    "id": "anatomy-tail-wolf",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 14,
+    "crop": [
+      724,
+      814,
+      1086,
+      1086
+    ],
+    "trim": [
+      28,
+      0,
+      339,
+      249
+    ],
+    "width": 311,
+    "height": 249
+  },
+  {
+    "id": "anatomy-tail-lion",
+    "source": "exec-de7de2c9-d34c-4f8d-b699-70426d609752.png",
+    "cell": 15,
+    "crop": [
+      1086,
+      814,
+      1448,
+      1086
+    ],
+    "trim": [
+      40,
+      0,
+      343,
+      249
+    ],
+    "width": 303,
+    "height": 249
+  },
+  {
+    "id": "face-serious",
+    "source": "exec-185eb5af-c6eb-4803-b62f-f438cb48086d.png",
+    "cell": 0,
+    "crop": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "trim": [
+      38,
+      92,
+      336,
+      306
+    ],
+    "width": 298,
+    "height": 214
+  },
+  {
+    "id": "face-sad",
+    "source": "exec-185eb5af-c6eb-4803-b62f-f438cb48086d.png",
+    "cell": 1,
+    "crop": [
+      362,
+      0,
+      724,
+      362
+    ],
+    "trim": [
+      42,
+      74,
+      328,
+      308
+    ],
+    "width": 286,
+    "height": 234
+  },
+  {
+    "id": "face-tired",
+    "source": "exec-185eb5af-c6eb-4803-b62f-f438cb48086d.png",
+    "cell": 2,
+    "crop": [
+      724,
+      0,
+      1086,
+      362
+    ],
+    "trim": [
+      35,
+      80,
+      325,
+      310
+    ],
+    "width": 290,
+    "height": 230
+  },
+  {
+    "id": "face-happy",
+    "source": "exec-185eb5af-c6eb-4803-b62f-f438cb48086d.png",
+    "cell": 3,
+    "crop": [
+      1086,
+      0,
+      1448,
+      362
+    ],
+    "trim": [
+      29,
+      79,
+      325,
+      305
+    ],
+    "width": 296,
+    "height": 226
+  },
+  {
+    "id": "face-joyful",
+    "source": "exec-185eb5af-c6eb-4803-b62f-f438cb48086d.png",
+    "cell": 4,
+    "crop": [
+      0,
+      362,
+      362,
+      724
+    ],
+    "trim": [
+      36,
+      49,
+      332,
+      305
+    ],
+    "width": 296,
+    "height": 256
+  },
+  {
+    "id": "face-mischievous",
+    "source": "exec-185eb5af-c6eb-4803-b62f-f438cb48086d.png",
+    "cell": 5,
+    "crop": [
+      362,
+      362,
+      724,
+      724
+    ],
+    "trim": [
+      33,
+      60,
+      329,
+      284
+    ],
+    "width": 296,
+    "height": 224
+  },
+  {
+    "id": "face-cheeky",
+    "source": "exec-185eb5af-c6eb-4803-b62f-f438cb48086d.png",
+    "cell": 6,
+    "crop": [
+      724,
+      362,
+      1086,
+      724
+    ],
+    "trim": [
+      33,
+      60,
+      326,
+      297
+    ],
+    "width": 293,
+    "height": 237
+  },
+  {
+    "id": "face-heroic",
+    "source": "exec-185eb5af-c6eb-4803-b62f-f438cb48086d.png",
+    "cell": 7,
+    "crop": [
+      1086,
+      362,
+      1448,
+      724
+    ],
+    "trim": [
+      28,
+      71,
+      331,
+      283
+    ],
+    "width": 303,
+    "height": 212
+  },
+  {
+    "id": "face-young",
+    "source": "exec-185eb5af-c6eb-4803-b62f-f438cb48086d.png",
+    "cell": 8,
+    "crop": [
+      0,
+      724,
+      362,
+      1086
+    ],
+    "trim": [
+      34,
+      58,
+      335,
+      287
+    ],
+    "width": 301,
+    "height": 229
+  },
+  {
+    "id": "face-middle",
+    "source": "exec-185eb5af-c6eb-4803-b62f-f438cb48086d.png",
+    "cell": 9,
+    "crop": [
+      362,
+      724,
+      724,
+      1086
+    ],
+    "trim": [
+      33,
+      48,
+      331,
+      289
+    ],
+    "width": 298,
+    "height": 241
+  },
+  {
+    "id": "face-old",
+    "source": "exec-185eb5af-c6eb-4803-b62f-f438cb48086d.png",
+    "cell": 10,
+    "crop": [
+      724,
+      724,
+      1086,
+      1086
+    ],
+    "trim": [
+      28,
+      26,
+      334,
+      298
+    ],
+    "width": 306,
+    "height": 272
+  },
+  {
+    "id": "lower-body-slim",
+    "source": "exec-0474c590-5886-4b42-ad57-ccfdb285e881.png",
+    "cell": 0,
+    "crop": [
+      0,
+      0,
+      362,
+      445
+    ],
+    "trim": [
+      107,
+      15,
+      261,
+      420
+    ],
+    "width": 154,
+    "height": 405
+  },
+  {
+    "id": "lower-body-strong",
+    "source": "exec-0474c590-5886-4b42-ad57-ccfdb285e881.png",
+    "cell": 1,
+    "crop": [
+      362,
+      0,
+      724,
+      445
+    ],
+    "trim": [
+      72,
+      12,
+      255,
+      419
+    ],
+    "width": 183,
+    "height": 407
+  },
+  {
+    "id": "lower-body-stocky",
+    "source": "exec-0474c590-5886-4b42-ad57-ccfdb285e881.png",
+    "cell": 2,
+    "crop": [
+      724,
+      0,
+      1086,
+      445
+    ],
+    "trim": [
+      50,
+      20,
+      269,
+      419
+    ],
+    "width": 219,
+    "height": 399
+  },
+  {
+    "id": "lower-body-fat",
+    "source": "exec-0474c590-5886-4b42-ad57-ccfdb285e881.png",
+    "cell": 3,
+    "crop": [
+      1086,
+      0,
+      1448,
+      445
+    ],
+    "trim": [
+      38,
+      25,
+      281,
+      420
+    ],
+    "width": 243,
+    "height": 395
+  },
+  {
+    "id": "lower-trousers-tight",
+    "source": "exec-0474c590-5886-4b42-ad57-ccfdb285e881.png",
+    "cell": 4,
+    "crop": [
+      0,
+      445,
+      362,
+      758
+    ],
+    "trim": [
+      117,
+      19,
+      244,
+      295
+    ],
+    "width": 127,
+    "height": 276
+  },
+  {
+    "id": "lower-leather-tight",
+    "source": "exec-0474c590-5886-4b42-ad57-ccfdb285e881.png",
+    "cell": 5,
+    "crop": [
+      362,
+      445,
+      724,
+      758
+    ],
+    "trim": [
+      93,
+      19,
+      240,
+      295
+    ],
+    "width": 147,
+    "height": 276
+  },
+  {
+    "id": "lower-shorts-tight",
+    "source": "exec-0474c590-5886-4b42-ad57-ccfdb285e881.png",
+    "cell": 6,
+    "crop": [
+      724,
+      445,
+      1086,
+      758
+    ],
+    "trim": [
+      75,
+      43,
+      248,
+      234
+    ],
+    "width": 173,
+    "height": 191
+  },
+  {
+    "id": "lower-skirt-tight",
+    "source": "exec-0474c590-5886-4b42-ad57-ccfdb285e881.png",
+    "cell": 7,
+    "crop": [
+      1086,
+      445,
+      1448,
+      758
+    ],
+    "trim": [
+      59,
+      39,
+      271,
+      255
+    ],
+    "width": 212,
+    "height": 216
+  },
+  {
+    "id": "lower-trousers-loose",
+    "source": "exec-0474c590-5886-4b42-ad57-ccfdb285e881.png",
+    "cell": 8,
+    "crop": [
+      0,
+      758,
+      362,
+      1086
+    ],
+    "trim": [
+      91,
+      16,
+      276,
+      313
+    ],
+    "width": 185,
+    "height": 297
+  },
+  {
+    "id": "lower-leather-loose",
+    "source": "exec-0474c590-5886-4b42-ad57-ccfdb285e881.png",
+    "cell": 9,
+    "crop": [
+      362,
+      758,
+      724,
+      1086
+    ],
+    "trim": [
+      72,
+      19,
+      265,
+      313
+    ],
+    "width": 193,
+    "height": 294
+  },
+  {
+    "id": "lower-shorts-loose",
+    "source": "exec-0474c590-5886-4b42-ad57-ccfdb285e881.png",
+    "cell": 10,
+    "crop": [
+      724,
+      758,
+      1086,
+      1086
+    ],
+    "trim": [
+      48,
+      34,
+      272,
+      263
+    ],
+    "width": 224,
+    "height": 229
+  },
+  {
+    "id": "lower-skirt-loose",
+    "source": "exec-0474c590-5886-4b42-ad57-ccfdb285e881.png",
+    "cell": 11,
+    "crop": [
+      1086,
+      758,
+      1448,
+      1086
+    ],
+    "trim": [
+      23,
+      32,
+      298,
+      289
+    ],
+    "width": 275,
+    "height": 257
+  }
+]
