@@ -89,7 +89,7 @@ jobs:
           KEY=$(mktemp); trap 'rm -f "$KEY"' EXIT
           printf '%s' "$BACKUP" > "$KEY"
           mkdir -p release
-          if [[ "$CODE" == 213 && "$VERSION" == 5.95 ]]; then
+          if [[ "$CODE" == 218 && "$VERSION" == 5.99 ]]; then
             python3 tools/build-native595.py --sdk "$ANDROID_HOME" --signing-backup "$KEY" --manifest-url "$MANIFEST" --output release
           fi
           URL="https://github.com/${GITHUB_REPOSITORY}/releases/download/codex-${CODE}/codex-assets-${CODE}.zip"
