@@ -62,6 +62,19 @@ jobs:
           echo "ANDROID_HOME=$SDK_ROOT" >> "$GITHUB_ENV"
           echo "ANDROID_SDK_ROOT=$SDK_ROOT" >> "$GITHUB_ENV"
           "$SDKMANAGER" --sdk_root="$SDK_ROOT" 'platforms;android-35' 'build-tools;35.0.0'
+      - name: Validate Android asset allowlist before packaging
+        run: |
+          python3 project/android-codice/tools/check_asset_access.py
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          root = Path('project/android-codice')
+          source = (root/'src/br/com/codice/aventureiro/MainActivity.java').read_text()
+          allowed = set(re.findall(r'"(/[^"\s]+)"', source.split('Arrays.asList(',1)[1].split(');',1)[0]))
+          actual = {'/'+p.name for p in (root/'assets').iterdir() if p.is_file()}
+          assert actual == allowed, f'Extra: {actual-allowed}; missing: {allowed-actual}'
+          print('Exact match with installed native updater allowlist.')
+          PY
       - name: Build signed APK and signed asset bundle
         env:
           BACKUP: ${{ secrets.CODEX_SIGNING_BACKUP_JSON }}
