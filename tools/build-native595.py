@@ -11,5 +11,5 @@ with tempfile.TemporaryDirectory() as tmp:
  run('python3',project/'tools/check_asset_access.py');run('javac','--release','8','-classpath',jar,'-d',classes,*project.glob('src/**/*.java'),cfg);run(bt/'d8','--lib',jar,'--min-api','26','--output',dex,*classes.rglob('*.class'));run(bt/'aapt2','compile','--dir',project/'res','-o',t/'res.zip');run(bt/'aapt2','link','-I',jar,'--manifest',project/'AndroidManifest.xml','-A',project/'assets','-o',t/'unsigned.apk',t/'res.zip')
  with zipfile.ZipFile(t/'unsigned.apk','a') as z:
   for f in dex.glob('*.dex'):z.write(f,f.name)
- run(bt/'zipalign','-f','4',t/'unsigned.apk',t/'aligned.apk');apk=out/'Codex-5.95.apk';run(bt/'apksigner','sign','--ks',ks,'--ks-key-alias',key['alias'],'--ks-pass','env:CODEX_KEY_PASSWORD','--v4-signing-enabled','false','--out',apk,t/'aligned.apk',env=env)
+ run(bt/'zipalign','-f','4',t/'unsigned.apk',t/'aligned.apk');apk=out/'Codex-5.99.apk';run(bt/'apksigner','sign','--ks',ks,'--ks-key-alias',key['alias'],'--ks-pass','env:CODEX_KEY_PASSWORD','--v4-signing-enabled','false','--out',apk,t/'aligned.apk',env=env)
  v=subprocess.check_output([str(bt/'apksigner'),'verify','--verbose','--print-certs',str(apk)],text=True);assert key['certificate_sha256'].lower().replace(':','') in v.lower();run(bt/'zipalign','-c','4',apk);print(v)
